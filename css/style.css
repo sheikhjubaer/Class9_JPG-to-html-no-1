@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body {
+	font-family: sans-serif;
+}
+
+/*Header Section CSS Starts*/
+.header-section {
+	background: #121B2A;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-section .wrapper .logo {
+    float: left;
+    width: 20%;
+    margin: 10px 0;
+}
+.header-section .wrapper .logo img {
+    width: 100%;
+}
+.header-section .wrapper .menu {
+    width: 66%;
+    float: right;
+    margin-top: 75px;
+}
+.header-section .wrapper .menu ul {}
+.header-section .wrapper .menu ul li {
+	float: left;
+	list-style: none;
+}
+.header-section .wrapper .menu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding-left: 46px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+.header-section .wrapper .menu ul li:last-child {}
+.header-section .wrapper .menu ul li a:hover {
+	color: #0078BD;
+}
+/*Header Section CSS Ends*/
+
+/*Banner Section CSS Starts*/
+.banner-section {
+    background: url(../images/img1_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 80px;
+}
+.banner-section .wrapper .b-content {
+    width: 590px;
+    margin-top: 235px;
+    margin-bottom: 110px;
+}
+.banner-section .wrapper .b-content h1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 44px;
+    color: #fff;
+}
+.banner-section .wrapper .b-content h2 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #0075B9;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+.banner-section .wrapper .b-content p {
+    line-height: 1.7;
+    font-size: 18px;
+    color: #fff;
+}
+.banner-section .wrapper .b-content button {
+    font-weight: 600;
+    font-size: 21px;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 6px;
+    margin-top: 25px;
+    padding: 13px 31px;
+}
+.banner-section .wrapper .b-content button:hover {
+    color: #0075B8;
+}
+/*Banner Section CSS Ends*/
